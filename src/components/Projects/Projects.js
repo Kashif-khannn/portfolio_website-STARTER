@@ -20,39 +20,23 @@ import {
 } from "../../styles/GlobalComponents";
 import { projects } from "../../constants/constants";
 
-// const projectsDemos = [
-//   {
-//     title: "COVID-19 Tracker",
-//     description:
-//       "COVID-19 Tracker implemented using Spring Boot and ThymeLeaf to display the total case count daily around the globe",
-//   },
-//   {
-//     title: "Amazing Store",
-//     description:
-//       "Amazing Store implemented using Spring Boot and Angular to implement an online store with an inventory for products to buy and sell",
-//   },
-//   {
-//     title: "Personal Portfolio Website",
-//     description:
-//       "Personal Portfolio Website implemented using React to showcase my skills and professional experience",
-//   },
-//   {
-//     title: "TicTacToe",
-//     description: "Implemented TicTacToe game using React",
-//   },
-// ];
-
 const Projects = (props) => (
   <Section nopadding id="projects">
     <SectionDivider />
     <SectionTitle main> Projects</SectionTitle>
     <GridContainer>
-      {projects.map((project) => (
-        <div>
-          {project.title}
-          <br></br>
-        </div>
-      ))}
+      {projects.map(
+        ({ id, image, title, description, tags, source, visit }) => (
+          <BlogCard key={id}>
+            <Img src={image} />
+            <TitleContent>
+              <HeaderThree title>{title}</HeaderThree>
+              <Hr />
+            </TitleContent>
+            <CardInfo>{description}</CardInfo>
+          </BlogCard>
+        )
+      )}
     </GridContainer>
   </Section>
 );
