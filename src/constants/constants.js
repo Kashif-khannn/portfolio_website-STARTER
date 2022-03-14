@@ -3,7 +3,7 @@ export const projects = [
     title: "COVID-19 Tracker",
     description:
       "Using Spring Boot, ThymeLeaf, Rest Services to read covid 19 cases data and displaying it on a browser with a daily update",
-    image: "/images/COVID19.jpg",
+
     tags: ["Spring Boot", "ThymeLeaf", "Rest"],
     source: "https://github.com/Kashif-khannn/COVID-19Tracker",
     visit: "https://google.com",
@@ -12,7 +12,7 @@ export const projects = [
   {
     title: "Amazing Store",
     description: "Implemented an online store using Angular and Spring Boot",
-    image: "/images/AmazingStore.jpg",
+
     tags: ["Spring Boot", "Angular", "Hibernate"],
     source: "https://github.com/GregRH/CogentCapstone",
     visit: "https://google.com",
@@ -22,7 +22,7 @@ export const projects = [
     title: "Personal Portfolio Website",
     description:
       "Created a personal portfolio website to showcase my Software Development Skills and Professional work experience",
-    image: "/images/3.jpg",
+
     tags: ["React"],
     source: "https://github.com/Kashif-khannn/portfolio_website-STARTER",
     visit: "https://google.com",
