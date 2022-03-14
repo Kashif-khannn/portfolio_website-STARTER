@@ -11,9 +11,10 @@ export const projects = [
   },
   {
     title: "Amazing Store",
-    description: "Implemented an online store using Angular and Spring Boot",
+    description:
+      "Implemented an online store where a user can buy and sell products using Angular and Spring Boot and MySQL",
 
-    tags: ["Spring Boot", "Angular", "Hibernate"],
+    tags: ["Spring Boot", "Angular", "MySQL"],
     source: "https://github.com/GregRH/CogentCapstone",
     visit: "https://google.com",
     id: 1,
