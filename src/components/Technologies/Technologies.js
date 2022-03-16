@@ -17,6 +17,7 @@ import {
 const Technologies = () => (
   <Section id="tech">
     <SectionDivider />
+    <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
       I have worked with a wide range of technologies in the full stack
@@ -24,7 +25,7 @@ const Technologies = () => (
     </SectionText>
     <List>
       <ListItem>
-        <DiFirebase size="3rem" />
+        <DiReact size="3rem" />
         <ListContainer>
           <ListTitle> Front-End</ListTitle>
           <ListParagraph>
