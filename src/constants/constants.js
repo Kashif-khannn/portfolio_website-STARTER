@@ -46,9 +46,12 @@ export const TimeLineData = [
     year: 2019,
     text: "Landed my first Internship over the summer as a QA Analyst",
   },
-  { year: 2020, text: "Landed my second Internship at TD Bank" },
+  {
+    year: 2020,
+    text: "Landed my second Internship at TD Bank as a Business Systems Analyst",
+  },
   {
     year: 2021,
-    text: "Completed my Undergrad and Began developing projects in my freetime",
+    text: " Graduated from University with a Computer Science degree and Began developing projects in my freetime",
   },
 ];

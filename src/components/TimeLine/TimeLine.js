@@ -69,14 +69,16 @@ const Timeline = () => {
       <CarouselContainer ref={carouselRef}></CarouselContainer>
       <>
         {TimeLineData.map((item, index) => (
-          <CarouselMobileScrollNode>
+          <CarouselMobileScrollNode
             key={index}
-            final={index == TOTAL_CAROUSEL_COUNT - 1}
-            <CarouselItem>
-              index = {index}
-              id = {"carousel__item-${index}"}
-              active = {activeItem}
-              onClick={(e) => handleClick(e, index)}>
+            final={index === TOTAL_CAROUSEL_COUNT - 1}
+          >
+            <CarouselItem
+              index={index}
+              id={`carousel__item-${index}`}
+              active={activeItem}
+              onClick={(e) => handleClick(e, index)}
+            >
               <CarouselItemTitle>{item.year}</CarouselItemTitle>
             </CarouselItem>
           </CarouselMobileScrollNode>
